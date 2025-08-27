@@ -6,10 +6,16 @@ body, html {
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     min-height: 100vh;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: #692f2f;
 font-size: 1.2em;
 background-color:rgba(184, 183, 183, 0.838)
+}
+
+p {
+    display:flex;
+    padding: 30px;
 }
